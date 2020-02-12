@@ -1,0 +1,302 @@
+---
+title: "Data Visualisation"
+subtitle: "Dr Thiyanga Talagala"
+author: "John Little"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    lib_dir: libs
+    css: 
+      - default
+      - default-fonts
+      - duke-blue
+      - hygge-duke
+      - libs/cc-fonts.css
+      - libs/figure-captions.css
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+```{r setup, include=FALSE}
+options(htmltools.dir.version = FALSE)
+```
+
+# What is data visualisation?
+
+The visual representation and presentation of data to facilitate understanding.
+
+Andy Kirk-
+
+---
+
+# What is data visualisation?
+
+The **visual representation** and presentation of data to facilitate understanding.
+
+Andy Kirk-
+
+- How you are going to plot your data
+
+- Building bloks of charts
+    
+    - marks: points, lines or shapes to represent data
+    
+    - attributes: visual variations of marks: different scales, positions, sizes
+
+---
+
+# What is data visualisation?
+
+The visual representation and **presentation** of data to facilitate understanding.
+
+Andy Kirk-
+
+- Design decisions as a means for communicating to others
+
+    - interactivity
+    
+    - Annotations
+    
+    - legend, titles, scales, caption
+    
+    - dimentions of the chart area
+
+
+---
+
+# What is data visualisation?
+
+The visual representation and presentation of data to facilitate **understanding**.
+
+Andy Kirk-
+
+## The three phases of understanding
+
+Perceiving --> Interpretion --> Comprehending
+
+- Three different cognitive focuses
+
+---
+
+# Perceiving
+
+- **What do I see?: Reading the chart**
+
+    - What data is shown?
+    
+    - What is on x-axis/ y-axis?
+    
+    - What do colours represent? 
+    
+    - What range of values are displayed?
+    
+    - stepped magnitude judgement?
+    
+    - Where are the least and most/ average?/largest and smallest?
+    
+---
+background-image: url('dodged.png')
+---
+
+# Interpreting
+
+- Translate what you see into quantitative and/or qualitative meaning.
+
+- Reader's ability to perform relational interpretation
+
+    - Are these patterns normal, expected or unusual?
+    
+    - What features are interesting?
+    
+    - What features are important given the subject knowledge?
+    
+    - If you do not have any knowledge about the subject your understanding stops after the perceiving phase.
+
+---
+
+background-image: url('dodged.png')
+---
+# Comprehending
+
+- What does it mean to me?
+
+- What does one do with this understanding?
+
+- Have I learned something I did not know before?
+
+- Was it confirmed I did not know before?
+
+
+---
+```{r, echo=FALSE, message=FALSE}
+library(mozzie)
+library(ggplot2)
+library(forecast)
+autoplot(as.ts(mozzie$Colombo))+labs(x="time index", y="counts", title="Time series plot of dengue cases in Colombo")
+
+```
+
+---
+
+# What is data visualisation?
+
+The visual representation and presentation of data to **facilitate** understanding.
+
+- Visualisers can control the output but not the outcome.
+
+---
+
+## Perceiving:
+
+What does it **show**?
+
+## Interpreting
+
+What does it **mean**?
+
+## Comprehending
+
+What does it **mean to me**?
+---
+
+# The Visualisation Design Process
+
+- In visualisation there is no such thing as perfect solution.
+
+## Organising your thinking: What, for whom, why
+
+- Stage 1: Formulating your brief
+
+- Stage 2: Working with data
+
+- Stage 3: Establishing your editorial thinking
+
+- Stage 4: Developing the design solution
+
+---
+
+# Formulating your brief
+
+- Planning:
+  
+    - What is the output format? (printout, mobile app, etc)
+    
+    - Audience (How much asiistant they need? How familiar are they with the charts?)
+    
+    - Time scale
+    
+    - Tools
+    
+- Purpose: 
+
+  - Exhibitory
+  
+  - Explanatory
+  
+  - Expliratory
+
+---
+
+background-image: url('e1.png')
+
+# Exhibitory
+
+
+---
+background-image: url('e2.jpg')
+background-size: contain
+
+# Explanatory
+
+
+---
+
+background-image: url('e3.png')
+background-size: contain
+
+
+
+# Exploratory
+
+
+---
+
+---
+# Main reasons for using graphical displays
+
+- Present or explore data
+
+- 
+
+---
+
+## Challenges
+
+- Whether it will be understood as you wish
+
+- Plots which are common in one kind of field may be unfamiliar to the readers of another research field.
+
+- Choice of graphical form: The same data may be plotted in many alternative ways, which is best and why? 
+
+- May look different in print than on a computer screen.
+---
+## Content, Context and Construction
+
+- Consistency
+
+- Proximity: place graphics on the same page or on the facing page
+
+- Layout
+
+---
+## Factors influence the effective visualisation
+
+- Scales
+
+    - Simplicity
+
+    - Granularity: relative size, scale, level of detail
+
+    - Coverage
+    
+- Sorting and ordering
+
+- Annotation (Overlaying information)
+
+    - Highlight particular feature of a graphic
+
+    - Guides the reader
+    
+    - Emphasizing particular issue
+    
+    - Overlaying (Statistical) information
+    
+    - Challenge: overlapping or cluttered display
+---
+
+## Factors influence the effective visualisation
+
+- Captions, legends
+
+- Positioning 
+ 
+   - Same page or in the facing page, inconvenient to have to turn pages back and forth
+   
+   
+- Size, Frames and Aspect Ratio
+
+ 
+- Colour
+
+   - Blends well and distinguish between different categories
+
+---
+## Drawing good graphics to visualise data
+---
+
+## What should be shown?
+
+---
+
+## Scientific Design Choices in Data Visualization
