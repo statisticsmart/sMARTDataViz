@@ -164,6 +164,18 @@ What does it **mean to me**?
 
 - In visualisation there is no such thing as perfect solution.
 
+
+## Challenges
+
+- Whether it will be understood as you wish
+
+- Plots which are common in one kind of field may be unfamiliar to the readers of another research field.
+
+- Choice of graphical form: The same data may be plotted in many alternative ways, which is best and why? 
+
+- May look different in print than on a computer screen.
+
+---
 ## Organising your thinking: What, for whom, why
 
 - Stage 1: Formulating your brief
@@ -176,7 +188,7 @@ What does it **mean to me**?
 
 ---
 
-# Formulating your brief
+## Stage1: Formulating your brief
 
 - Planning:
   
@@ -200,57 +212,46 @@ What does it **mean to me**?
 
 background-image: url('e1.png')
 
+
 # Exhibitory
 
-
 ---
+
 background-image: url('e2.jpg')
 background-size: contain
 
 # Explanatory
-
 
 ---
 
 background-image: url('e3.png')
 background-size: contain
 
-
-
 # Exploratory
 
+---
+
+## Stage 2: Working with data
+
+- gathering, handling and preparing your data
+
+- Qualitative vs Quantitative
+
+- Nomina, Ordinal, Interval, Ratio
+
+- Minimum, Maximum, Number of Categories
+
+---
+## Stage 3: Establishing your editorial thinking
+
+- What questions are you trying to answer in support of the overriding curiosity?
+
+- Selecting items to include or exclude
 
 ---
 
----
-# Main reasons for using graphical displays
+## Stage 4: Developing your design solution
 
-- Present or explore data
-
-- 
-
----
-
-## Challenges
-
-- Whether it will be understood as you wish
-
-- Plots which are common in one kind of field may be unfamiliar to the readers of another research field.
-
-- Choice of graphical form: The same data may be plotted in many alternative ways, which is best and why? 
-
-- May look different in print than on a computer screen.
----
-## Content, Context and Construction
-
-- Consistency
-
-- Proximity: place graphics on the same page or on the facing page
-
-- Layout
-
----
-## Factors influence the effective visualisation
 
 - Scales
 
@@ -273,9 +274,10 @@ background-size: contain
     - Overlaying (Statistical) information
     
     - Challenge: overlapping or cluttered display
+    
 ---
 
-## Factors influence the effective visualisation
+## Stage 4: Developing your design solution (cont.)
 
 - Captions, legends
 
@@ -291,12 +293,31 @@ background-size: contain
 
    - Blends well and distinguish between different categories
 
----
-## Drawing good graphics to visualise data
+- Consistency
+
+- Proximity: place graphics on the same page or on the facing page
+
+- Layout
+
 ---
 
-## What should be shown?
+### Three principles of good visualisation design (From Andy Kirk)
+
+- **Trustworthy:** Is it reliable?
+
+- **Accessible** Is it usable/ understandable?
+
+- **Elegant** 
+---
+
+background-image: url('charts-scale.jpg')
+background-size: contain
+
+
 
 ---
 
-## Scientific Design Choices in Data Visualization
+background-image: url('mis.jpeg')
+background-size: contain
+
+---
