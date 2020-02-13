@@ -1,7 +1,6 @@
 ---
 title: "Data Visualisation"
-subtitle: "Dr Thiyanga Talagala"
-author: "John Little"
+author: "Dr Thiyanga Talagala"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
@@ -321,3 +320,9 @@ background-image: url('mis.jpeg')
 background-size: contain
 
 ---
+
+Acknowledgement
+
+- Data Visualisation: A Handbook for Data Driven Design
+
+
