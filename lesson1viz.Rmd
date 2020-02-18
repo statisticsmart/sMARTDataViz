@@ -1,9 +1,10 @@
 ---
-title: "Data Visualisation"
+title: "Data Visualization"
 author: "Dr Thiyanga Talagala"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
+    chakra: libs/remark-latest.min.js
     lib_dir: libs
     css: 
       - default
@@ -21,7 +22,7 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-# What is data visualisation?
+# What is data visualization?
 
 The visual representation and presentation of data to facilitate understanding.
 
@@ -29,7 +30,7 @@ Andy Kirk-
 
 ---
 
-# What is data visualisation?
+# What is data visualization?
 
 The **visual representation** and presentation of data to facilitate understanding.
 
@@ -37,7 +38,7 @@ Andy Kirk-
 
 - How you are going to plot your data
 
-- Building bloks of charts
+- Building blocks of charts
     
     - marks: points, lines or shapes to represent data
     
@@ -45,7 +46,7 @@ Andy Kirk-
 
 ---
 
-# What is data visualisation?
+# What is data visualization?
 
 The visual representation and **presentation** of data to facilitate understanding.
 
@@ -64,7 +65,7 @@ Andy Kirk-
 
 ---
 
-# What is data visualisation?
+# What is data visualization?
 
 The visual representation and presentation of data to facilitate **understanding**.
 
@@ -72,7 +73,7 @@ Andy Kirk-
 
 ## The three phases of understanding
 
-Perceiving --> Interpretion --> Comprehending
+Perceiving --> Interpreting --> Comprehending
 
 - Three different cognitive focuses
 
@@ -138,7 +139,7 @@ autoplot(as.ts(mozzie$Colombo))+labs(x="time index", y="counts", title="Time ser
 
 ---
 
-# What is data visualisation?
+# What is data visualization?
 
 The visual representation and presentation of data to **facilitate** understanding.
 
@@ -193,7 +194,7 @@ What does it **mean to me**?
   
     - What is the output format? (printout, mobile app, etc)
     
-    - Audience (How much asiistant they need? How familiar are they with the charts?)
+    - Audience (How much assisstant do they need? How familiar are they with the charts?)
     
     - Time scale
     
@@ -205,7 +206,7 @@ What does it **mean to me**?
   
   - Explanatory
   
-  - Expliratory
+  - Exploratory
 
 ---
 
@@ -236,7 +237,7 @@ background-size: contain
 
 - Qualitative vs Quantitative
 
-- Nomina, Ordinal, Interval, Ratio
+- Nominal, Ordinal, Interval, Ratio
 
 - Minimum, Maximum, Number of Categories
 
