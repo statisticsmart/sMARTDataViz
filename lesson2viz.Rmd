@@ -22,8 +22,21 @@ output:
 options(htmltools.dir.version = FALSE)
 ```
 
-# Ten guidelines for effective data visualization
+# Guidelines for effective data visualization
 
+Encoding: translating the data into a visual element on a chart/map/etc.
+
+
+<img src="encoding.png" width="500">
+
+---
+# Encoding vs Decoding
+
+![](vispipeline.png)
+
+Read [here](https://eagereyes.org/basics/encoding-vs-decoding)
+
+---
 ## 1. Simplicity
 
 - Color
@@ -35,6 +48,9 @@ options(htmltools.dir.version = FALSE)
 - Style: Flat and simple. No 3D effects, shadows, distracting shadings
 
 - Set the baseline to zero
+
+
+![](3d_bars.jpg)
               
 ---
 
